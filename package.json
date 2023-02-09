@@ -1,0 +1,33 @@
+{
+  "name": "njs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch": "sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DK625/Back-end.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "DK625",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DK625/Back-end/issues"
+  },
+  "homepage": "https://github.com/DK625/Back-end#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.58.0"
+  }
+}
